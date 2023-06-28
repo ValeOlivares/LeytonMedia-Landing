@@ -7,29 +7,45 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="landingContainer">
-      <section class="actionButtons">
-        <button class="redButton button">¿Qué puedo hacer?</button>
-        <button class="blueButton button">Recomendaciones Vacaciones</button>
-        <button class="greenButton button">Beneficios</button>
+      <section class="header flex-grid">
+        <div class="col">
+          <img src="./assets/images/amarillo.png" class="charImg">
+        </div>
+        <div class="col">
+          <img src="./assets/images/logo.png" class="logoImg">
+        </div>
+        <div class="col">
+          <img src="./assets/images/verde.png" class="charImg">
+        </div>
+      </section>
+      <section class="flex-grid">
+        <div class="col">
+          <button class="redButton button">¿Qué puedo hacer?</button>
+        </div>
+        <div class="col">
+          <button class="blueButton button">Recomendaciones Vacaciones</button>
+        </div>
+        <div class="col">
+          <button class="greenButton button">Beneficios</button>
+        </div>
       </section>
       <section class="mainContent flex-grid">
-        <div class="col">
-          <p>
-            <span>Descarga la App BCI Móvil</span> y vive la experiencia de llevar tu banco a todas partes
+        <div>
+          <p class="contentText">
+            <span class="contextTextSpan">Descarga la App BCI Móvil</span> y vive la experiencia de llevar tu banco a todas partes
           </p>
-          <div class=""icons>
+          <div class="">
             Icons
           </div>
         </div>
         <div class="col">
-          cel tablet
+          <img src="./assets/images/azul.png" class="contentImg">
         </div>
       </section>
       <section class="footer">

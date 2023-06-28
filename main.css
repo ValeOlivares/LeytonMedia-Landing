@@ -12,35 +12,52 @@ body{
 
 .landingContainer {
   font-family: 'Open Sans', sans-serif;
-  border: 1px solid red;
-  margin: 0 300px;
+  margin: 30px 300px;
   text-align: center;
 }
 
-.actionButtons{
-  display: flex;
-  justify-content: center;
+.header{
   align-items: center;
-  gap: 10px;
 }
+
+.charImg{
+  width: 150px;
+}
+
+.logoImg{
+  width: 250px;
+}
+
 .button {
   font-family: 'Open Sans', sans-serif;
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
   border-radius: 5px;
+  border-color: transparent;
   width: 250px;
   height: 60px;
 }
 
 .redButton{
   background-color: #f8393a;
+  box-shadow: 0 3px #be1f20;
 }
 
 .blueButton{
   background-color: #007abe;
+  box-shadow: 0 3px #085e8e;
 }
 
 .greenButton {
   background-color: #00a957;
+  box-shadow: 0 3px #04763e;
+}
+
+.contextTextSpan{
+  color:#f8393a;
+  font-weight: 700;
+}
+.contentImg{
+  width: 400px;
 }
