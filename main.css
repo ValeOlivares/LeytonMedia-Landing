@@ -1,0 +1,46 @@
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+
+body{
+  background-image: url("./assets/images/background.jpeg");
+  background-size: cover;
+}
+
+.landingContainer {
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid red;
+  margin: 0 300px;
+  text-align: center;
+}
+
+.actionButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.button {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 250px;
+  height: 60px;
+}
+
+.redButton{
+  background-color: #f8393a;
+}
+
+.blueButton{
+  background-color: #007abe;
+}
+
+.greenButton {
+  background-color: #00a957;
+}
